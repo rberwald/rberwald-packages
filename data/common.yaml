@@ -1,0 +1,12 @@
+---
+packages::purge_packages: false
+packages::signal_purge_only: false
+
+packages::packages: {}
+packages::package_defaults: {}
+
+lookup_options:
+  packages::packages:
+    merge: deep
+  packages::package_defaults:
+    merge: deep

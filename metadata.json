@@ -1,0 +1,24 @@
+{
+  "name": "rberwald-packages",
+  "version": "1.0.0",
+  "author": "rberwald",
+  "summary": "Module to manage individual packages",
+  "license": "Apache-2.0",
+  "source": "https://github.com/rberwald/rberwald-packages",
+  "project_page": "https://github.com/rberwald/rberwald-packages",
+  "issues_url": "https://github.com/rberwald/rberwald-packages/issues",
+  "dependencies": [
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">=2016.1.2"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=4.4.0 <5.0.0"
+    }
+  ],
+  "data_provider": "hiera"
+}
+
